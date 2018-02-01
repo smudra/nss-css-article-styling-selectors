@@ -40,18 +40,16 @@ a.disabled  {
     color: blue;
 }
 
-.redsibling {
+.redsibling + h4 {
     background-color: red;
 }
-.bluesibling {
+.bluesibling + h4 {
     background-color: blue;
 }
 
-.child-of-grandparent {
-    border-width: 1px;
-    border-color: chocolate;
-    border-style: solid;
-    border-radius: 5px;
+.grandparent > h4 {
+    border: 1px solid chocolate;
+    border-radius: 10px;
     padding: 10px 5px;
 }
 
