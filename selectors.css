@@ -1,0 +1,65 @@
+header {
+    border-color: chocolate;
+    border-style: solid;
+    border-width: 1px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding: 20px 0;
+    background-color: cornsilk;
+}
+
+nav li {
+    display: inline;
+    padding: 0 14px;
+
+}
+
+nav li a {
+    text-decoration: none;
+}
+.disabled {
+    color: gray;
+}
+
+a.disabled  {
+    color: purple;
+}
+
+.active {
+    color: yellow;
+}
+.redchild {
+    color: red;
+}
+
+.bluechild {
+    color: blue;
+}
+
+.redsibling {
+    background-color: red;
+}
+.bluesibling {
+    background-color: blue;
+}
+
+.child-of-grandparent {
+    border-width: 1px;
+    border-color: chocolate;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px 5px;
+}
+
+.promo {
+    font-weight: bold;
+    color: gold;
+}
+
+input {
+    height: 28px;
+}
